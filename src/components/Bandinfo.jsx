@@ -70,7 +70,6 @@ function Bandinfo({ openModal, closeModal, slug, sceneData, clickedIndex }) {
               <p>
                 {sceneData[clickedIndex]?.start} - {sceneData[clickedIndex]?.end}
               </p>
-              <p></p>
             </section>
             <section className="smallIcons">
               <img src={spotifyImg} alt="" />
