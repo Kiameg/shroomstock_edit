@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_logo {
+  max-width: 160px;
+}
+
+nav {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--h3_desktop);
+}
+.footer_logos {
+  display: flex;
+  gap: 1em;
+}
+
+.footer_box {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+footer {
+  display: flex;
+  margin-inline: auto;
+  justify-content: space-between;
+  max-width: 1200px;
+  align-items: center;
+}
+
+body {
+  background: rgb(234, 150, 73);
+  background: linear-gradient(0deg, rgba(234, 150, 73, 1) 10%, rgba(249, 209, 163, 1) 100%);
+  min-height: 100vh;
+}
+
+html {
+  --h1_desktop: 5.61rem;
+  --h2_desktop: 4.209rem;
+  --h3_desktop: 3.157rem;
+  --h4_desktop: 2.369rem;
+  --h5_desktop: 1.777rem;
+  --h6_desktop: 1.333rem;
+  --p_desktop: 1rem;
+
+  --offwhite: #fff4e7;
+  --cream: #f9d1a3;
+  --orange: #ee5920;
+  --black: black;
+}
+
+h1 {
+  color: var(--orange);
+  font-family: "Spicy Rice", serif;
+  padding-bottom: 0.5rem;
+  font-size: var(--h1_desktop);
+}
+
+h2 {
+  font-size: var(--h2_desktop);
+  color: var(--orange);
+  font-family: "Spicy Rice", serif;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  color: var(--orange);
+  font-size: var(--h3_desktop);
+  font-family: "Spicy Rice", serif;
+  padding-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: var(--h4_desktop);
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: var(--h5_desktop);
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: var(--h6_desktop);
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+p {
+  font-size: var(--p_desktop);
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 0.5rem;
+}
+
+input,
+label {
+  font-size: var(--p_desktop);
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 428px) {
+  .nav_logo {
+    max-width: 100px;
+  }
+
+  nav h2 {
+    padding: 0.2em;
+    font-size: var(--h3_desktop);
+  }
+  .footer_box {
+    padding: 1em;
+    margin-bottom: 0.1em;
+  }
+}

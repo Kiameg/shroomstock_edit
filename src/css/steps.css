@@ -1,0 +1,62 @@
+.buynow_button {
+    background-color: var(--orange);
+    margin: auto;
+    display: block;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 1.5rem;
+    font-size: var(--h6_desktop);
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.buynow_button:hover {
+    background-color: #e96b39 !important;
+}
+
+.next_button {
+    display: block;
+    align-self: right;
+}
+
+.next_button:hover {
+    background-color: #e96b39 !important;
+}
+
+.confirm_button:hover {
+    background-color: #e96b39 !important;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: auto;
+    margin-bottom: 2.5rem;
+}
+
+
+
+.ant-steps-item-tail::after {
+    background-color: var(--orange) !important;
+}
+
+.ant-steps {
+    font-size: 16px;
+}
+
+.ant-steps-item-icon > .ant-steps-icon {
+    margin-left: -1rem;
+}
+
+.ant-steps-vertical {
+    margin: 2rem;
+}
+
+.ant-steps.ant-steps-vertical.ant-steps-dot .ant-steps-item>.ant-steps-item-container>.ant-steps-item-tail {
+    display: none;
+}
+

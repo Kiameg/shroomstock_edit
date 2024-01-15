@@ -1,0 +1,90 @@
+.grid_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.areas_h5 {
+    text-align: center;
+}
+
+.area_input {
+    box-sizing: border-box;
+    border-radius: 6;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    background-image: url(../img/smallstar.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .area_input:not(:disabled):checked {
+    background-clip: content-box;
+    background-image: url(../img/smallstar2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .area_input:not(:disabled):hover {
+    background-image: url(../img/smallstar2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+  .area_input:disabled {
+    opacity: 0.3;
+    
+  }
+  
+  .area_input:disabled:checked {
+    opacity: 0.3;
+
+  }
+
+
+  
+
+.selecetor {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 10rem;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.area_input {
+    width: 80px;
+    height: 80px;
+    margin-inline: auto;
+    margin-top: 2rem;
+    background-color: transparent;
+}
+
+
+
+
+@media (min-width: 600px) {
+    .grid_area {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .area_input {
+        width: 120px;
+        height: 120px;
+        margin-inline: auto;
+        margin-top: 2rem;
+        background-color: transparent;
+    }
+
+    .areas_h5 {
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+}

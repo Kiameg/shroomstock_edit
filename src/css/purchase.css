@@ -1,0 +1,19 @@
+main {
+    margin-inline: auto;
+    max-width: 1200px;
+}
+
+.grid_purchase {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+.grid_purchase {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 980px;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+}
+}

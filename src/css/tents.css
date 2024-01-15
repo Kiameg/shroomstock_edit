@@ -1,0 +1,36 @@
+.grid_tents {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 2rem;
+}
+
+.tents_small_input, .tents_big_input {
+    width: 3rem;
+    text-align: center;
+    background-color: var(--offwhite);
+    border: none;
+    border-bottom: 1px solid var(--black);
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 0;
+  }
+
+  .tents_h5 {
+    text-align: center;
+  }
+
+  .tents_p {
+    margin-bottom: 2rem;
+  }
+
+  .grid_tents_form {
+    margin-top: 2rem;
+  }
+
+  .tents_left {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }

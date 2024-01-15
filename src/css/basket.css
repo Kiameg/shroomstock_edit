@@ -1,0 +1,20 @@
+.basket {
+    background-color: var(--offwhite);
+    padding: 2rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-height: 300px;
+    margin-top: 3rem;
+}
+
+@media (min-width: 600px) {
+    .basket {
+        background-color: var(--offwhite);
+        padding: 2rem;
+        border-radius: 20px;
+        margin-left: 4rem;
+        margin-top: 0rem;
+    }
+
+}

@@ -1,0 +1,19 @@
+.info_left {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.grid_info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.info_input {
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--offwhite);
+    border: none;
+    border-bottom: 1px solid var(--black);
+    border-radius: 5px;
+}

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+.bands {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.band_img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.band {
+  display: grid;
+  max-width: 300px;
+  justify-items: center;
+  align-items: end;
+  cursor: pointer;
+}
+
+.band h2,
+.band_img,
+.scene_img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.scene_img {
+  position: relative;
+  top: -70%;
+  left: -35%;
+  z-index: 99;
+}
+
+.band h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff4e7;
+  -webkit-text-stroke: 1px black;
+  font-family: "Spicy Rice", serif;
+  z-index: 99;
+}
+
+.time {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 0.3rem;
+}
+
+.spotifylink {
+  margin-right: 0.7rem;
+}
+
+.buttons button {
+  background-color: #ee5920;
+  color: #f9d1a3;
+  margin: 0.5em;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  width: 90px;
+  height: 35px;
+  border: none;
+}
+
+.band_button button {
+  width: 90px;
+  height: 35px;
+}
+button:hover {
+  background-color: #e96b39;
+}
+
+.buttons {
+  margin-bottom: 5em;
+}
+
+.fav_btn {
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+  max-height: 23px;
+  padding: 0;
+}
+
+.fav_btn:hover {
+  background-color: initial;
+}
+
+@media screen and (max-width: 428px) {
+  .bands {
+    grid-template-columns: 1fr;
+  }
+
+  .buttons button {
+    width: 70px;
+    height: 35px;
+    font-size: 12px;
+  }
+}

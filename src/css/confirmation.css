@@ -1,0 +1,30 @@
+.confirmation {
+    text-align: center;
+}
+
+.celebrate_button {
+    margin-top: 2rem;
+    background-color: var(--orange);
+    color: var(--offwhite);
+    font-family: "Poppins", sans-serif;
+    border: none;
+    font-size: var(--p_desktop);
+}
+
+.celebrate_button:hover {
+    margin-top: 2rem;
+    color: var(--offwhite) !important;
+    border: none;
+}
+
+
+.confetti {
+    margin-left: 8rem;
+}
+
+@media (min-width: 600px) {
+    .confirmation {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+}
